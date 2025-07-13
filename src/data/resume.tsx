@@ -172,9 +172,40 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "NeoStream",
+      href: "https://neo-stream-six.vercel.app/",
+      dates: "July 2025",
+      active: true,
+      description:
+        "NeoStream is a modern movie streaming web app with user login, admin dashboard, and real-time movie browsing features.",
+      technologies: [
+        "Reactjs",
+        "Typescript",
+        "Nodejs",
+        "Expressjs",
+        "MongoDb",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://neo-stream-six.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sparsh-Tyagi01/NeoStream",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/neostream.mp4",
+    },
+    {
       title: "Blabber",
       href: "https://blabber-chi.vercel.app/",
-      dates: "May 2024 - June 2024",
+      dates: "May 2025 - June 2025",
       active: true,
       description:
         "Blabber is a modern web platform that allows users to create, share, and explore public posts in real-time.",
@@ -204,7 +235,7 @@ export const DATA = {
     {
       title: "Voxta",
       href: "#",
-      dates: "June 2024 - Present",
+      dates: "June 2025 - Present",
       active: true,
       description:
         "Voxta is a full-stack web application that connects users for real-time text-based conversations",
